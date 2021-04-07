@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <title>Request Form</title>
+</head>
+<body>
+    <div class="header">
+        <img src="../../Images/pmLogo.png" alt="icon" class="icon" />
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="../Home">Home</a></li>
+            <li><a href="../Form">Submit Request</a></li>
+            <li><a href="../Calendar">Calendar</a></li>
+            <li><a href="../TimeOff">Time Off Info</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="card">
+            <h2>Submit a request</h2>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" required>
+
+                <label for="tRequest">Type of request</label>
+                <input type="text" id="tRequest" required>
+
+                <label for="reason">Request reason (optional)</label>
+                <input type="text" id="reason">
+
+                <label for="date">Dates requested</label>
+                <input type="text" id="date" required>
+
+                <input type="submit">
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
